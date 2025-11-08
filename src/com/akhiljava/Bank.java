@@ -29,6 +29,15 @@ public class Bank {
 	System.out.println("current balance : "+bank.getCurrentBalance());
 	Bank.withdrawal(200);
 	System.out.println("current balance : " +bank.getCurrentBalance());
+	greetCustomer();	
+	System.out.println("current blance is :" + bank.getCurrentBalance());
+	bank.depoist(500);
+	System.out.println("current balance : "+bank.getCurrentBalance());
+	Bank.withdrawal(300);
+	System.out.println("current balance : "+bank.getCurrentBalance());
+	Bank.withdrawal(200);
+	System.out.println("current balance : " +bank.getCurrentBalance());
+
 	}
 
 }
