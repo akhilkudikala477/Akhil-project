@@ -21,5 +21,13 @@ public class Demo {
 		System.out.println("product a,b = "+product);
 		System.out.println("division of a,b = "+division);
 		System.out.println("reminder of a,b = "+reminder);
+		
+		System.out.println("The value of a = "+a);
+		System.out.println("the value of b = "+b);
+		System.out.println("sum of a,b is "+sum);
+		System.out.println("difference a,b = "+difference);
+		System.out.println("product a,b = "+product);
+		System.out.println("division of a,b = "+division);
+		System.out.println("reminder of a,b = "+reminder);
 	}
 }
